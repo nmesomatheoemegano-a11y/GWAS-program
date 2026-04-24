@@ -129,7 +129,7 @@ def run_gwas(bcf_path, pheno_path, covar_path, output_path):
   print (f"GWAS analysis complete. Results saved to {output_path}")
 
 def parse_args():
-    parser = argparse.ArgumentParser(description = "GWAS.py is a tool designed to run genome wide association on input bcf files, with necessary ")
+    parser = argparse.ArgumentParser(description = "GWAS.py is a tool designed to run genome wide association on input bcf files, with necessary input files.")
     parser.add_argument("-g", "--bcf_path", required = True, help="Path to input BCF file in Google drive")
     parser.add_argument("-p", "--pheno_path", required = True, help="Path to input phenotype file in Google drive")
     parser.add_argument("-c", "--covar_path", required = True, help="Path to input covariates file in Google drive")
