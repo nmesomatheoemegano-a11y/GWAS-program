@@ -1,5 +1,5 @@
 # GWAS-program
-A script that reads DNA data in input VCF files, compares it to a physical trait, adjusts for age/sex, and outputs a list of relevant genetic markers.
+A script that runs Genome Wide Association Study (GWAS), by reading DNA data in input VCF files, comparing it to a specified physical trait using phenotype txt file provided, adjusts for age/sex using covariates txt file provided, and outputs a list of relevant genetic markers.
 
 An example command line execution will be: 
 !python3/gwas.py
